@@ -7,7 +7,6 @@ set(FIXED_PROTOBUF "https://github.com/protocolbuffers/protobuf/releases/downloa
 
 ExternalProject_Add(
   tensorflow_base
-  # GIT_REPOSITORY https://github.com/tensorflow/tensorflow.git
   GIT_REPOSITORY https://github.com/numb3r3/tensorflow.git
   GIT_TAG "${TENSORFLOW_TAG}"
   TMP_DIR "/tmp"
